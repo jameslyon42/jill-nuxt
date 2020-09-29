@@ -21,106 +21,89 @@
         </p>
       </div>
     </div>
-    <div
-      class="container mx-auto p-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
-    >
-      <div class="col-span-1 lg:col-span-6 text-center py-10">
-        <h1 class="mb-6 underline">Weekly Online Classes</h1>
-        <p>
-          Find joy in movement from the comfort and convenience of wherever you
-          are!
-          <br />
-          <br />
-          I encourage you to think of these classes as a form of self-care and
-          to approach them from a place of love.
-          <br />
-          <br />
-          We focus on how we feel and move in a way that is right for our
-          amazing, unique bodies.
-          <br />
-          <br />
-          Each class is also an opportunity to connect with others and create a
-          supportive and fun atmosphere for everyone to leave feeling energized
-          and like we recieved a virtual hug!
-        </p>
-      </div>
-      <img
-        class="col-span-1 lg:col-span-6 lg:col-start-0 shadow-lg rounded-full"
-        src="@/assets/images/remote.jpg"
-      />
+    <div class="shadow-lg py-20">
       <div
-        class="col-span-1 lg:col-span-6 lg:col-start-7 lg:row-start-2 text-center py-10"
+        class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
       >
-        <h1 class="mb-6 underline">Class Types</h1>
-        <ul class="grid grid-cols-12 gap-8 justify-center">
-          <li class="col-span-12 lg:col-span-6">
-            <h3 class="mb-4 font-medium">Golden Fitness</h3>
-            <p>
-              Ideal for active older adults or those new to exercising. We focus
-              on increasing strength, range of movement, balance and
-              coordination
-            </p>
-          </li>
-          <li class="col-span-12 lg:col-span-6">
-            <h3 class="mb-4 font-medium">Pilates</h3>
-            <p>
-              consists of low-impact flexibility and muscular strength and
-              movements. We emphasize proper postural alignment, core strength
-              and muscle balance
-            </p>
-          </li>
-          <li class="col-span-12 lg:col-span-6">
-            <h3 class="mb-4 font-medium">Zumba</h3>
-            <p>
-              a cardio dance fitness class that fuses dance hits with easy to
-              follow moves to get you out of your mind and onto the dance floor
-            </p>
-          </li>
-          <li class="col-span-12 lg:col-span-6">
-            <h3 class="mb-4 font-medium">Tabata HIIT</h3>
-            <p>
-              High-Intensity Interval Training class that focuses on using max
-              effort over short periods of time with only brief rest breaks
-            </p>
-          </li>
-          <li class="col-span-12 lg:col-span-6">
-            <h3 class="mb-4 font-medium">Total Body</h3>
-            <p>
-              Cardio and strength training interval class that gets the whole
-              body moving
-            </p>
-          </li>
-          <li class="col-span-12 lg:col-span-6">
-            <h3 class="mb-4 font-medium">Booty Burn</h3>
-            <p>
-              Strength and endurance class that focuses on the lower body
-            </p>
-          </li>
-        </ul>
-      </div>
-      <img
-        class="col-span-1 lg:col-span-6 shadow-lg rounded-full"
-        src="@/assets/images/class.jpg"
-      />
-    </div>
-    <div class="bg-teal w-full">
-      <div
-        class="mx-auto max-w-4xl p-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center text-center"
-      >
-        <h1 class="underline col-span-12">Kind Words</h1>
-        <p class="col-span-6 font-medium">
-          &ldquo;Jill is fantastic! I look forward to her classes every week.
-          They have been a great inspiration to get back into a self-care
-          routine!&rdquo;
-        </p>
-        <p class="col-span-6 font-medium">
-          &ldquo;I love it because she always gives options on each exercise
-          since I'm a little older and not always able to do the more advanced
-          version.&rdquo;
-        </p>
-        <p class="col-span-6 font-medium col-start-4">
-          &ldquo;I LOVE the convenience of online classes!&rdquo;
-        </p>
+        <div class="col-span-1 lg:col-span-6 text-center pb-20">
+          <h1 class="mb-6 underline">Weekly Online Classes</h1>
+          <p>
+            Find joy in movement from the comfort and convenience of wherever
+            you are!
+            <br />
+            <br />
+            I encourage you to think of these classes as a form of self-care and
+            to approach them from a place of love.
+            <br />
+            <br />
+            We focus on how we feel and move in a way that is right for our
+            amazing, unique bodies.
+            <br />
+            <br />
+            Each class is also an opportunity to connect with others and create
+            a supportive and fun atmosphere for everyone to leave feeling
+            energized and like we recieved a virtual hug!
+          </p>
+        </div>
+        <img
+          class="col-span-1 lg:col-span-6 lg:col-start-0 shadow-lg rounded-full"
+          src="@/assets/images/remote.jpg"
+        />
+        <div
+          class="col-span-1 lg:col-span-6 lg:col-start-7 lg:row-start-2 text-center py-20"
+        >
+          <h1 class="mb-6 underline">Class Types</h1>
+          <ul class="grid grid-cols-12 gap-8 justify-center">
+            <li class="col-span-12 lg:col-span-6">
+              <h3 class="mb-4 font-medium">Golden Fitness</h3>
+              <p>
+                Ideal for active older adults or those new to exercising. We
+                focus on increasing strength, range of movement, balance and
+                coordination
+              </p>
+            </li>
+            <li class="col-span-12 lg:col-span-6">
+              <h3 class="mb-4 font-medium">Pilates</h3>
+              <p>
+                consists of low-impact flexibility and muscular strength and
+                movements. We emphasize proper postural alignment, core strength
+                and muscle balance
+              </p>
+            </li>
+            <li class="col-span-12 lg:col-span-6">
+              <h3 class="mb-4 font-medium">Zumba</h3>
+              <p>
+                a cardio dance fitness class that fuses dance hits with easy to
+                follow moves to get you out of your mind and onto the dance
+                floor
+              </p>
+            </li>
+            <li class="col-span-12 lg:col-span-6">
+              <h3 class="mb-4 font-medium">Tabata HIIT</h3>
+              <p>
+                High-Intensity Interval Training class that focuses on using max
+                effort over short periods of time with only brief rest breaks
+              </p>
+            </li>
+            <li class="col-span-12 lg:col-span-6">
+              <h3 class="mb-4 font-medium">Total Body</h3>
+              <p>
+                Cardio and strength training interval class that gets the whole
+                body moving
+              </p>
+            </li>
+            <li class="col-span-12 lg:col-span-6">
+              <h3 class="mb-4 font-medium">Booty Burn</h3>
+              <p>
+                Strength and endurance class that focuses on the lower body
+              </p>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="col-span-1 lg:col-span-6 shadow-lg rounded-full"
+          src="@/assets/images/class.jpg"
+        />
       </div>
     </div>
     <div
@@ -130,6 +113,21 @@
       ]"
     >
       <div class="text-center m-20">
+        <div
+          class="mx-auto max-w-4xl mb-20 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center text-center"
+        >
+          <h1 class="underline col-span-12">Kind Words</h1>
+          <p class="col-span-6 font-medium">
+            &ldquo;Jill is fantastic! I look forward to her classes every week.
+            They have been a great inspiration to get back into a self-care
+            routine!&rdquo;
+          </p>
+          <p class="col-span-6 font-medium">
+            &ldquo;I love it because she always gives options on each exercise
+            since I'm a little older and not always able to do the more advanced
+            version.&rdquo;
+          </p>
+        </div>
         <h1 class="flex-none text-6xl mb-8">
           Let's get moving!
         </h1>
