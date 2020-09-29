@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+  --top-spacing: 69px;
+
+  color: black;
+  scroll-behavior: smooth;
+}
+
+:focus,
+:active,
+button:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: theme('fontSize.4xl');
+  font-family: theme('fontFamily.title');
+}
+
+h3 {
+  font-size: theme('fontSize.2xl');
+  font-family: theme('fontFamily.spartan');
+}
+
+p {
+  font-family: theme('fontFamily.spartan');
+  font-size: theme('fontSize.lg');
+  line-height: theme('lineHeight.loose');
+}
