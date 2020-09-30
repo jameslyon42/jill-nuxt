@@ -10,7 +10,7 @@
         class="m-20 relative font-medium sm:max-w-4xl grid grid-cols-1 sm:grid-cols-12 gap-8 items-center"
       >
         <div class="sm:col-span-5">
-          <img class="shadow-lg rounded-full" src="@/assets/images/face.png" />
+          <img class="shadow-lg rounded-full" src="@/assets/images/face.jpg" />
         </div>
         <p
           class="font-spartan text-center sm:text-left font-medium text-xl sm:text-2xl sm:col-span-7"
@@ -27,7 +27,7 @@
       <div
         class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
       >
-        <div class="col-span-1 lg:col-span-6 text-center pb-20">
+        <div class="col-span-1 lg:col-span-6 text-center p-20">
           <h1 class="mb-6 underline">Weekly Online Classes</h1>
           <p>
             Find joy in movement from the comfort and convenience of wherever
@@ -52,7 +52,7 @@
           src="@/assets/images/remote.jpg"
         />
         <div
-          class="col-span-1 lg:col-span-6 lg:col-start-7 lg:row-start-2 text-center py-20"
+          class="col-span-1 lg:col-span-6 lg:col-start-7 lg:row-start-2 text-center p-20"
         >
           <h1 class="mb-6 underline">Class Types</h1>
           <ul class="grid grid-cols-12 gap-8 justify-center">
@@ -116,9 +116,9 @@
     >
       <div class="text-center m-20">
         <div
-          class="mx-auto max-w-4xl mb-20 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center text-center"
+          class="mx-auto max-w-4xl mb-20 grid grid-cols-6 lg:grid-cols-12 gap-12 items-center text-center"
         >
-          <h1 class="underline col-span-12">Kind Words</h1>
+          <h1 class="underline col-span-6 lg:col-span-12">Kind Words</h1>
           <p class="col-span-6 font-medium">
             &ldquo;Jill is fantastic! I look forward to her classes every week.
             They have been a great inspiration to get back into a self-care
