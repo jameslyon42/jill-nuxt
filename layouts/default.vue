@@ -11,25 +11,25 @@
       </a>
       <div class="social-icons flex items-center justify-end">
         <a
-          class="font-fa ml-5 text-3xl hover:text-teal"
+          class="ml-5 text-3xl hover:text-teal"
           href="https://www.facebook.com/The-Jill-Pill-2299369710306614"
           target="_blank"
         >
-          &#xf230;
+          <fa :icon="['fab', 'facebook-square']" />
         </a>
         <a
-          class="font-fa ml-5 text-3xl hover:text-teal"
+          class="ml-5 text-3xl hover:text-teal"
           href="https://www.instagram.com/thejillpillmethod/"
           target="_blank"
         >
-          &#xf16d;
+          <fa :icon="['fab', 'instagram']" />
         </a>
         <a
-          class="font-fa ml-5 text-3xl hover:text-teal"
+          class="ml-5 text-3xl hover:text-teal"
           href="mailto:jillgomez42@gmail.com"
           target="_blank"
         >
-          &#xf0e0;
+          <fa :icon="['fas', 'envelope']" />
         </a>
       </div>
     </header>

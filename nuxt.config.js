@@ -54,6 +54,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
+    '@nuxtjs/fontawesome',
   ],
   /*
    ** Nuxt.js modules
@@ -78,5 +80,22 @@ export default {
     port: 3000, // default: 3000
     host: '0.0.0.0', // default: localhost
   },
+
   telemetry: false,
+
+  googleFonts: {
+    families: {
+      Lobster: true,
+      Spartan: [400, 500],
+    },
+    display: 'swap',
+  },
+
+  fontawesome: {
+    icons: {
+      solid: ['faEnvelope'],
+      brands: ['faFacebookSquare', 'faInstagram'],
+    },
+    component: 'fa',
+  },
 }

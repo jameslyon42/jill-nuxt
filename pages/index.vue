@@ -17,7 +17,9 @@
         >
           Hi, I’m Jill, a fitness and wellness coach here to help you create
           <span class="mt-4 mb-8 block font-bold">Happy Healthy Habits.</span>
-          <Button class="shadow-lg">Sign up for classes</Button>
+          <Button class="shadow-lg" @click="scrollToSignUp">
+            Sign up for classes
+          </Button>
         </p>
       </div>
     </div>
