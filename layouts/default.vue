@@ -19,14 +19,14 @@
         </a>
         <a
           class="ml-5 text-3xl hover:text-teal"
-          href="https://www.instagram.com/thejillpillmethod/"
+          href="https://www.instagram.com/the_jillpill/"
           target="_blank"
         >
           <fa :icon="['fab', 'instagram']" />
         </a>
         <a
           class="ml-5 text-3xl hover:text-teal"
-          href="mailto:jillgomez42@gmail.com"
+          href="mailto:thejillpillmethod@gmail.com"
           target="_blank"
         >
           <fa :icon="['fas', 'envelope']" />
