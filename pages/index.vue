@@ -67,7 +67,7 @@
             <li class="col-span-12 lg:col-span-6">
               <h3 class="mb-4 font-medium">Pilates</h3>
               <p>
-                consists of low-impact flexibility and muscular strength and
+                Consists of low-impact flexibility and muscular strength and
                 movements. We emphasize proper postural alignment, core strength
                 and muscle balance
               </p>
@@ -75,7 +75,7 @@
             <li class="col-span-12 lg:col-span-6">
               <h3 class="mb-4 font-medium">Zumba</h3>
               <p>
-                a cardio dance fitness class that fuses dance hits with easy to
+                A cardio dance fitness class that fuses dance hits with easy to
                 follow moves to get you out of your mind and onto the dance
                 floor
               </p>
