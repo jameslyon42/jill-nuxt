@@ -25,9 +25,9 @@
     </div>
     <div class="shadow-lg py-20">
       <div
-        class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+        class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center px-20"
       >
-        <div class="col-span-1 lg:col-span-6 text-center p-20">
+        <div class="col-span-1 lg:col-span-6 text-center">
           <h1 class="mb-6 underline">Weekly Online Classes</h1>
           <p>
             Find joy in movement from the comfort and convenience of wherever
@@ -52,7 +52,7 @@
           src="@/assets/images/remote.jpg"
         />
         <div
-          class="col-span-1 lg:col-span-6 lg:col-start-7 lg:row-start-2 text-center p-20"
+          class="col-span-1 lg:col-span-6 lg:col-start-7 lg:row-start-2 text-center"
         >
           <h1 class="mb-6 underline">Class Types</h1>
           <ul class="grid grid-cols-12 gap-8 justify-center">
