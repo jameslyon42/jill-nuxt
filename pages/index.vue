@@ -29,22 +29,25 @@
       >
         <div class="col-span-1 lg:col-span-6 text-center">
           <h1 class="mb-6 underline">Weekly Online Classes</h1>
-          <p>
+          <p class="mb-5">
             Find joy in movement from the comfort and convenience of wherever
             you are!
-            <br />
-            <br />
+          </p>
+          <p class="mb-5">
             I encourage you to think of these classes as a form of self-care and
             to approach them from a place of love.
-            <br />
-            <br />
+          </p>
+          <p class="mb-5">
             We focus on how we feel and move in a way that is right for our
             amazing, unique bodies.
-            <br />
-            <br />
+          </p>
+          <p class="mb-5">
             Each class is also an opportunity to connect with others and create
             a supportive and fun atmosphere for everyone to leave feeling
             energized and like we recieved a virtual hug!
+          </p>
+          <p>
+            *Private and corporate classes available.
           </p>
         </div>
         <img
@@ -106,6 +109,14 @@
           class="col-span-1 lg:col-span-6 shadow-lg rounded-full"
           src="@/assets/images/class.jpg"
         />
+      </div>
+      <div
+        class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12"
+      >
+        <div class="col-span-1 lg:col-span-6 lg:col-start-4 text-center">
+          <h1 class="mb-6 underline">Current Schedule</h1>
+          <img src="@/assets/images/schedule.png" />
+        </div>
       </div>
     </div>
     <div

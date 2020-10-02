@@ -13,7 +13,7 @@ module.exports = {
         fa: ['FontAwesome'],
       },
       colors: {
-        teal: '#4dd0e1',
+        purple: '#4999FF',
       },
     },
   },

@@ -44,8 +44,8 @@ pipeline {
                     curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
                     mv ./kubectl /usr/bin/kubectl
                     chmod +x /usr/bin/kubectl
-                    doctl kubernetes cluster kubeconfig save gof-cluster
-                    kubectl --record deployment.apps/portfolio-backend set image deployment.v1.apps/portfolio-backend portfolio-backend="${REGISTRY}"
+                    doctl kubernetes cluster kubeconfig save jill-pil
+                    kubectl --record deployment.apps/jill-pill set image deployment.v1.apps/jill-pill jill-pill="${REGISTRY}"
                 '''
             }
         }
