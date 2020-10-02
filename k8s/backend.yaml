@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jill-pill
+  labels:
+    app: jill-pill
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jill-pill
+  template:
+    metadata:
+      labels:
+        app: jill-pill
+    spec:
+      containers:
+        - name: jill-pill
+          image: registry.digitalocean.com/syntaxsugar42/jillpill:latest
+          ports:
+            - containerPort: 3000
