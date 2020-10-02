@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: jill-pill
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  rules:
+    - host: thejillpill.com
+      http:
+        paths:
+          - backend:
+              serviceName: jill-pill
+              servicePort: 80
