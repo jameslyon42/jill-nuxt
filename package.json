@@ -13,6 +13,10 @@
     "lint": "npm run lint:js && npm run lint:style"
   },
   "dependencies": {
+    "contentful": "^7.14.6",
+    "date-fns": "^2.16.1",
+    "date-fns-tz": "^1.0.10",
+    "lodash": "^4.17.20",
     "nuxt": "^2.13.0"
   },
   "devDependencies": {
