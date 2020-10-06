@@ -166,7 +166,7 @@
             >
               <input
                 id="mce-EMAIL"
-                class="px-5 py-3 rounded-lg shadow-lg sm:w-64 mr-4 mb-4 sm:mb-0 w-full text-xl"
+                class="px-5 py-3 rounded-lg shadow-lg sm:w-64 mr-4 mb-4 sm:mb-0 w-full text-xl border-2"
                 type="email"
                 value=""
                 name="EMAIL"
@@ -227,7 +227,10 @@ export default {
   min-height: calc(100vh - var(--top-spacing));
   background-image: url('../assets/images/hero.jpeg');
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
+
+  @media (min-width: theme('screens.lg')) {
+    background-attachment: fixed;
+  }
 }
 </style>
