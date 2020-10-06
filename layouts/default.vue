@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-spartan bg-white">
     <header
       :class="[
         'px-8 py-3 grid grid-cols-2 fixed top-0 w-screen bg-white z-40 transition-all',

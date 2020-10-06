@@ -98,4 +98,9 @@ export default {
     },
     component: 'fa',
   },
+
+  env: {
+    CTF_SPACE_ID: 'v0e3sgaw815p',
+    CTF_CDA_ACCESS_TOKEN: 'QQoRz_toF86Bxp61bNyvr7N18dW0c0OtVn8FwXaolpE',
+  },
 }
