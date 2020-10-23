@@ -2,7 +2,6 @@ html {
   --top-spacing: 69px;
 
   color: black;
-  scroll-behavior: smooth;
 }
 
 :focus,
@@ -24,4 +23,30 @@ h3 {
 p {
   font-family: theme('fontFamily.spartan');
   font-size: theme('fontSize.base');
+}
+
+li {
+  margin-bottom: theme('spacing.3');
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+a {
+  font-weight: theme('fontWeight.bold');
+  text-decoration: underline;
+
+  &:hover {
+    color: theme('colors.purple');
+  }
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
 }
