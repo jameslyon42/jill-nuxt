@@ -6,9 +6,12 @@
         { shadow: scrollPosition },
       ]"
     >
-      <a class="font-title text-3xl hover:text-purple cursor-pointer" href="/">
+      <nuxt-link
+        class="font-title text-3xl hover:text-purple cursor-pointer"
+        to="/"
+      >
         The Jill Pill
-      </a>
+      </nuxt-link>
       <div class="social-icons flex items-center justify-end">
         <a
           class="ml-5 text-3xl hover:text-purple"

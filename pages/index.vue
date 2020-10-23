@@ -30,25 +30,22 @@
         <div class="col-span-1 lg:col-span-6 text-center">
           <h1 class="mb-6 underline">Weekly Online Classes</h1>
           <p class="mb-5">
-            Find joy in movement from the comfort and convenience of wherever
-            you are!
+            <b>Joy in Movement</b>
+            - we move in a way that feels good and honors our unique, wonderful
+            bodies.
           </p>
           <p class="mb-5">
-            I encourage you to think of these classes as a form of self-care and
-            to approach them from a place of love.
+            <b>Comfort & Convenience</b>
+            - join from wherever you are, with or without your camera on,
+            whatever makes you feel your best
           </p>
           <p class="mb-5">
-            We focus on how we feel and move in a way that is right for our
-            amazing, unique bodies.
+            <b>Community</b>
+            - connect with others in a supportive and fun atmosphere
           </p>
-          <p class="mb-5">
-            Each class is also an opportunity to connect with others and create
-            a supportive and fun atmosphere for everyone to leave feeling
-            energized and like we recieved a virtual hug!
-          </p>
-          <p>
-            *Private and corporate classes available.
-          </p>
+          <Button class="shadow-lg" @click="scrollToSignUp">
+            Sign up for classes
+          </Button>
         </div>
         <img
           class="col-span-1 lg:col-span-6 lg:col-start-0 shadow-lg rounded-full"
@@ -60,45 +57,44 @@
           <h1 class="mb-6 underline">Class Types</h1>
           <ul class="grid grid-cols-12 gap-8 justify-center">
             <li class="col-span-12 lg:col-span-6">
-              <h3 class="mb-4 font-medium">Golden Fitness</h3>
+              <h4 class="mb-4 font-medium">Golden Fitness</h4>
               <p>
-                Ideal for active older adults or those new to exercising. We
-                focus on increasing strength, range of movement, balance and
+                Ideal for older adults and those new to exercising. We focus on
+                increasing strength, range of movement, balance, and
                 coordination
               </p>
             </li>
             <li class="col-span-12 lg:col-span-6">
-              <h3 class="mb-4 font-medium">Pilates</h3>
+              <h4 class="mb-4 font-medium">Pilates</h4>
               <p>
-                Consists of low-impact flexibility and muscular strength and
-                movements. We emphasize proper postural alignment, core strength
-                and muscle balance
+                Low-impact flexibility and strength class that focuses on proper
+                postural alignment, core strength, and muscle balance
               </p>
             </li>
             <li class="col-span-12 lg:col-span-6">
-              <h3 class="mb-4 font-medium">Zumba</h3>
+              <h4 class="mb-4 font-medium">Zumba</h4>
               <p>
-                A cardio dance fitness class that fuses dance hits with easy to
-                follow moves to get you out of your mind and onto the dance
-                floor
+                Cardio dance fitness class that fuses Latin, hip hop, and pop
+                dance hits with easy to follow moves to get you out of your mind
+                and onto the dance floor
               </p>
             </li>
             <li class="col-span-12 lg:col-span-6">
-              <h3 class="mb-4 font-medium">Tabata HIIT</h3>
+              <h4 class="mb-4 font-medium">Tabata HIIT</h4>
               <p>
                 High-Intensity Interval Training class that focuses on using max
-                effort over short periods of time with only brief rest breaks
+                effort over short periods of time with brief rest breaks
               </p>
             </li>
             <li class="col-span-12 lg:col-span-6">
-              <h3 class="mb-4 font-medium">Total Body</h3>
+              <h4 class="mb-4 font-medium">Total Body</h4>
               <p>
                 Cardio and strength training interval class that gets the whole
                 body moving
               </p>
             </li>
             <li class="col-span-12 lg:col-span-6">
-              <h3 class="mb-4 font-medium">Booty Burn</h3>
+              <h4 class="mb-4 font-medium">Booty Burn</h4>
               <p>
                 Strength and endurance class that focuses on the lower body
               </p>
@@ -113,11 +109,82 @@
       <div
         class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12"
       >
-        <div class="col-span-1 lg:col-span-6 lg:col-start-4 text-center">
-          <h1 class="mb-6 underline">Current Schedule</h1>
-          <img src="@/assets/images/schedule.png" />
+        <img
+          class="col-span-1 lg:col-span-6"
+          src="@/assets/images/schedule.png"
+        />
+        <div class="col-span-1 lg:col-span-6 m-auto px-10 text-center">
+          <h1 class="mb-6 underline">Class Details</h1>
+          <ul class="list-disc text-left mb-5">
+            <li>
+              To get started, fill out this
+              <a href="https://forms.gle/UEEaHArhuaD96pCK8" target="_blank">
+                Waiver and Information Form
+              </a>
+            </li>
+            <li>
+              Classes are taught through Zoom and scheduled in
+              <b>Eastern Standard Time</b>
+              . New to Zoom? I’m here to help you get set up!
+              <a href="mailto:thejillpillmethod@gmail.com">
+                Shoot me an e-mail
+              </a>
+            </li>
+            <li>
+              Private and corporate classes available
+            </li>
+            <li>
+              Cost:
+              <b>$10/class</b>
+              or
+              <b>$50/month</b>
+              for unlimited classes
+            </li>
+            <li>
+              Payments can be made through:
+              <ul class="pl-10 mt-3">
+                <li>
+                  Venmo:
+                  <a href="https://venmo.com/The_JillPill" target="_blank">
+                    @the_jillpill
+                  </a>
+                </li>
+                <li>
+                  Paypal:
+                  <a href="http://paypal.me/thejillpill" target="_blank">
+                    paypal.me/thejillpill
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <Button class="shadow-lg" @click="scrollToSignUp">
+            Sign up for classes
+          </Button>
         </div>
       </div>
+      <!-- <div
+        class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12"
+      >
+        <div class="col-span-1 lg:col-span-12 text-center">
+          <h1 class="mb-6 underline">Upcoming Classes</h1>
+          <div
+            v-for="scheduledClass in futureClasses"
+            :key="scheduledClass.sys.id"
+            class="grid grid-cols-2 text-left mb-2"
+          >
+            <span
+              class="text-right font-medium uppercase border-r-4 border-purple pr-3"
+            >
+              {{ formatClassTime(scheduledClass.fields.time) }}
+            </span>
+            <div class="pl-3">
+              {{ scheduledClass.fields.classType.fields.name }}
+            </div>
+          </div>
+          <nuxt-link to="/schedule">View Entire Schedule</nuxt-link>
+        </div>
+      </div> -->
     </div>
     <div
       :class="[
@@ -145,9 +212,9 @@
           Let's get moving!
         </h1>
         <p class="mb-8 text-2xl">
-          Sign up to receive
-          <b>The Jill Pill Newsletter</b>
-          to access my class schedule
+          Sign up to access my class schedule and receive wellness inspiration
+          to keep you
+          <b>happy and healthy</b>
         </p>
         <div id="mc_embed_signup">
           <form
@@ -204,12 +271,28 @@
 </template>
 
 <script>
+import { mapActions, mapGetters } from 'vuex'
+import { formatDate, formatClassTime } from '@/utils'
 import Button from '@/components/Button'
 
 export default {
   name: 'Index',
+
   components: { Button },
+
+  async fetch() {
+    // await this.fetchClasses()
+  },
+
+  computed: {
+    ...mapGetters('schedule', ['futureClasses']),
+  },
+
   methods: {
+    ...mapActions('schedule', ['fetchClasses']),
+    formatDate,
+    formatClassTime,
+
     scrollToSignUp() {
       this.$refs.signup.scrollIntoView({
         behavior: 'smooth',
@@ -223,6 +306,7 @@ export default {
 .about-me {
   height: 300px;
 }
+
 .hero {
   min-height: calc(100vh - var(--top-spacing));
   background-image: url('../assets/images/hero.jpeg');
