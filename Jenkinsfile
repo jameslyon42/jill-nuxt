@@ -50,4 +50,18 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            script {
+                try {
+                    echo 'Cleaning up..'
+                    sh '''
+                        docker system prune -af
+                    '''
+                } catch (err) {
+                    echo err.getMessage()
+                }
+            }
+        }
+    }
 }

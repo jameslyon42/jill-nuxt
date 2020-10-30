@@ -7,28 +7,35 @@
       ]"
     >
       <nuxt-link
-        class="font-title text-3xl hover:text-purple cursor-pointer"
+        class="font-title text-3xl hover:text-purple cursor-pointer whitespace-no-wrap"
         to="/"
       >
         The Jill Pill
       </nuxt-link>
-      <div class="social-icons flex items-center justify-end">
+      <div class="flex items-center justify-end flex-wrap">
         <a
-          class="ml-5 text-3xl hover:text-purple"
+          class="text-3xl hover:text-purple"
+          href="https://www.youtube.com/channel/UC68qf0s2vwADY2yqALqhEvA/featured"
+          target="_blank"
+        >
+          <fa :icon="['fab', 'youtube']" />
+        </a>
+        <a
+          class="ml-2 sm:ml-5 text-3xl hover:text-purple"
           href="https://www.facebook.com/The-Jill-Pill-2299369710306614"
           target="_blank"
         >
           <fa :icon="['fab', 'facebook-square']" />
         </a>
         <a
-          class="ml-5 text-3xl hover:text-purple"
+          class="ml-2 sm:ml-5 text-3xl hover:text-purple"
           href="https://www.instagram.com/the_jillpill/"
           target="_blank"
         >
           <fa :icon="['fab', 'instagram']" />
         </a>
         <a
-          class="ml-5 text-3xl hover:text-purple"
+          class="ml-2 sm:ml-5 text-3xl hover:text-purple"
           href="mailto:thejillpillmethod@gmail.com"
           target="_blank"
         >
