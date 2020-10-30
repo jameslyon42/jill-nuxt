@@ -53,11 +53,9 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
+    '@nuxtjs/google-analytics',
     '@nuxtjs/stylelint-module',
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontawesome',
@@ -88,6 +86,10 @@ export default {
 
   telemetry: false,
 
+  googleAnalytics: {
+    id: 'UA-46345816-3',
+  },
+
   googleFonts: {
     families: {
       Lobster: true,
@@ -99,7 +101,7 @@ export default {
   fontawesome: {
     icons: {
       solid: ['faEnvelope'],
-      brands: ['faFacebookSquare', 'faInstagram'],
+      brands: ['faFacebookSquare', 'faInstagram', 'faYoutube'],
     },
     component: 'fa',
   },
