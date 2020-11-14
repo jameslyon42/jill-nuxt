@@ -137,7 +137,7 @@
               Cost:
               <b>$10/class</b>
               or
-              <b>$50/month</b>
+              <b>$20/week</b>
               for unlimited classes
             </li>
             <li>
