@@ -29,19 +29,19 @@
       >
         <div class="col-span-1 lg:col-span-6 text-center">
           <h1 class="mb-6 underline">Weekly Online Classes</h1>
+          <h4 class="mb-4 font-medium">Joy in Movement</h4>
           <p class="mb-5">
-            <b>Joy in Movement</b>
-            - we move in a way that feels good and honors our unique, wonderful
+            We move in a way that feels good and honors our unique, wonderful
             bodies.
           </p>
+          <h4 class="mb-4 font-medium">Comfort & Convenience</h4>
           <p class="mb-5">
-            <b>Comfort & Convenience</b>
-            - join from wherever you are, with or without your camera on,
-            whatever makes you feel your best
+            Join from wherever you are, with or without your camera on, whatever
+            makes you feel your best
           </p>
+          <h4 class="mb-4 font-medium">Community</h4>
           <p class="mb-5">
-            <b>Community</b>
-            - connect with others in a supportive and fun atmosphere
+            Connect with others in a supportive and fun atmosphere
           </p>
           <Button class="shadow-lg" @click="scrollToSignUp">
             Sign up for classes
@@ -203,9 +203,10 @@
             routine!&rdquo;
           </p>
           <p class="col-span-6 font-medium">
-            &ldquo;I love it because she always gives options on each exercise
-            since I'm a little older and not always able to do the more advanced
-            version.&rdquo;
+            &ldquo;Jill is personable and upbeat. She makes working out fun and
+            challenging - whatever your level may be. I appreciate that she
+            doesn't just show modifications in workouts, but also does them
+            along with you. I always look forward to the workouts!&rdquo;
           </p>
         </div>
         <h1 class="flex-none text-6xl mb-8">
