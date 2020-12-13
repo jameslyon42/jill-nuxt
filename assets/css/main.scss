@@ -10,6 +10,12 @@ button:focus {
   outline: none;
 }
 
+h1,
+h2,
+h3 {
+  margin: theme('spacing.3') 0;
+}
+
 h1 {
   font-size: theme('fontSize.4xl');
   font-family: theme('fontFamily.title');
@@ -25,6 +31,7 @@ p {
   font-size: theme('fontSize.base');
 }
 
+p,
 li {
   margin-bottom: theme('spacing.3');
 }
