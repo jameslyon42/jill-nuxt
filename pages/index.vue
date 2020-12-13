@@ -247,7 +247,10 @@
                 Sign up
               </Button>
               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px" aria-hidden="true">
+              <div
+                style="position: absolute; left: -5000px;"
+                aria-hidden="true"
+              >
                 <input
                   type="text"
                   name="b_f6334c3e62c6a57b9f0b0c6c0_7d2fca9ace"
