@@ -44,7 +44,7 @@ a {
   font-weight: theme('fontWeight.bold');
   text-decoration: underline;
 
-  &:hover {
+  &:hover:not(.button) {
     color: theme('colors.purple');
   }
 }
