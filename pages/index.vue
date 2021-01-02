@@ -18,7 +18,7 @@
           Hi, I’m Jill, a fitness and wellness coach here to help you create
           <span class="mt-4 mb-8 block font-bold">Happy Healthy Habits.</span>
           <Button class="shadow-lg" @click="scrollToSignUp">
-            Sign up for classes
+            Take a class with me
           </Button>
         </p>
       </div>
@@ -44,7 +44,7 @@
             Connect with others in a supportive and fun atmosphere
           </p>
           <Button class="shadow-lg" @click="scrollToSignUp">
-            Sign up for classes
+            Take a class with me
           </Button>
         </div>
         <img
@@ -107,57 +107,90 @@
         />
       </div>
       <div
-        class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12"
+        class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12 relative"
       >
         <img
           class="col-span-1 lg:col-span-6"
           src="@/assets/images/schedule.png"
         />
         <div class="col-span-1 lg:col-span-6 m-auto px-10 text-center">
-          <h1 class="mt-0 mb-6 underline">Class Details</h1>
-          <ul class="list-disc text-left mb-5">
+          <div
+            ref="signup"
+            :class="['absolute invisible', $style.scroll]"
+          ></div>
+          <h1 class="mt-0 mb-6 underline">Class Pricing</h1>
+          <h4 class="font-medium mb-4 text-left">
+            Live Class Options
+          </h4>
+          <ul class="list-disc pl-6 mb-4 text-left">
             <li>
-              To get started, fill out this
-              <a href="https://forms.gle/UEEaHArhuaD96pCK8" target="_blank">
-                Waiver and Information Form
+              <a
+                class="font-medium"
+                href="https://www.thetalenthack.com/spaces/checkout?product_id=1023&product_type=pack"
+              >
+                Unlimited Virtual Classes:
               </a>
+              $75/month
             </li>
             <li>
-              Classes are taught through Zoom and scheduled in
-              <b>Eastern Standard Time</b>
-              . New to Zoom? I’m here to help you get set up!
-              <a href="mailto:thejillpillmethod@gmail.com">
-                Shoot me an e-mail
+              <a
+                class="font-medium"
+                href="https://www.thetalenthack.com/me/thejillpill/book"
+              >
+                Drop-in Virtual Class:
               </a>
-            </li>
-            <li>Private and corporate classes available</li>
-            <li>
-              Cost:
-              <b>$10/class</b>
-              or
-              <b>$20/week</b>
-              for unlimited classes
-            </li>
-            <li>
-              Payments can be made through:
-              <ul class="pl-10 mt-3">
-                <li>
-                  Venmo:
-                  <a href="https://venmo.com/The_JillPill" target="_blank">
-                    @the_jillpill
-                  </a>
-                </li>
-                <li>
-                  Paypal:
-                  <a href="http://paypal.me/thejillpill" target="_blank">
-                    paypal.me/thejillpill
-                  </a>
-                </li>
-              </ul>
+              $10/class
             </li>
           </ul>
-          <Button class="shadow-lg" @click="scrollToSignUp">
-            Sign up for classes
+          <h4 class="font-medium mb-4 text-left">
+            On-Demand Class Options:
+          </h4>
+          <ul class="list-disc pl-6 mb-4 text-left">
+            <li>
+              <a
+                class="font-medium"
+                href="https://www.thetalenthack.com/me/thejillpill/on-demand"
+              >
+                Unlimited On-demand:
+              </a>
+              $50/month
+            </li>
+            <li>
+              <a
+                class="font-medium"
+                href="https://www.thetalenthack.com/me/thejillpill/on-demand"
+              >
+                Individual On-demand class purchase:
+              </a>
+              $10/30-day rental
+            </li>
+          </ul>
+          <h4 class="font-medium mb-4 text-left">
+            Best of Both Worlds:
+          </h4>
+          <ul class="list-disc pl-6 mb-4 text-left">
+            <li>
+              <a
+                class="font-medium"
+                href="https://www.thetalenthack.com/spaces/checkout?product_id=853&product_type=pack"
+              >
+                Unlimited virtual + On-demand classes:
+              </a>
+              $100/month
+            </li>
+          </ul>
+          <Button
+            class="shadow-lg mb-3"
+            href="https://thejillpill.us19.list-manage.com/track/click?u=f6334c3e62c6a57b9f0b0c6c0&id=a3d4a6e9b6&e=f7d695d2cf"
+          >
+            Click here for a 5 Day Trial
+          </Button>
+          <br />
+          <Button
+            class="shadow-lg"
+            href="https://www.thetalenthack.com/me/thejillpill/packages"
+          >
+            View All Packages
           </Button>
         </div>
       </div>
@@ -209,14 +242,12 @@
         </div>
         <h1 class="mt-0 flex-none text-6xl mb-8">Let's get moving!</h1>
         <p class="mb-8 text-2xl">
-          Sign up to access my class schedule and receive wellness inspiration
-          to keep you
+          Receive wellness inspiration to keep you
           <b>happy and healthy</b>
         </p>
         <div id="mc_embed_signup">
           <form
             id="mc-embedded-subscribe-form"
-            ref="signup"
             action="https://thejillpill.us19.list-manage.com/subscribe/post?u=f6334c3e62c6a57b9f0b0c6c0&amp;id=7d2fca9ace"
             method="post"
             name="mc-embedded-subscribe-form"
@@ -319,5 +350,9 @@ export default {
   @media (min-width: theme('screens.lg')) {
     background-attachment: fixed;
   }
+}
+
+.scroll {
+  top: calc(var(--top-spacing) * -1);
 }
 </style>
