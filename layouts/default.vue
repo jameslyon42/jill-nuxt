@@ -13,34 +13,55 @@
         The Jill Pill
       </nuxt-link>
       <div class="flex items-center justify-end flex-wrap">
-        <a
-          class="text-3xl hover:text-purple"
-          href="https://www.youtube.com/channel/UC68qf0s2vwADY2yqALqhEvA/featured"
-          target="_blank"
-        >
-          <fa :icon="['fab', 'youtube']" />
-        </a>
-        <a
-          class="ml-2 sm:ml-5 text-3xl hover:text-purple"
-          href="https://www.facebook.com/The-Jill-Pill-2299369710306614"
-          target="_blank"
-        >
-          <fa :icon="['fab', 'facebook-square']" />
-        </a>
-        <a
-          class="ml-2 sm:ml-5 text-3xl hover:text-purple"
-          href="https://www.instagram.com/the_jillpill/"
-          target="_blank"
-        >
-          <fa :icon="['fab', 'instagram']" />
-        </a>
-        <a
-          class="ml-2 sm:ml-5 text-3xl hover:text-purple"
-          href="mailto:thejillpillmethod@gmail.com"
-          target="_blank"
-        >
-          <fa :icon="['fas', 'envelope']" />
-        </a>
+        <nav>
+          <fa
+            class="md:hidden text-xl cursor-pointer"
+            :icon="['fa', 'bars']"
+            @click="isNavCollapsed = !isNavCollapsed"
+          />
+          <div
+            :class="[
+              { hidden: isNavCollapsed },
+              'bg-white md:block absolute md:relative md:right-auto right-0 md:left-auto left-0 text-center md:text-left',
+              $style.nav,
+            ]"
+          >
+            <!-- <nuxt-link
+              :class="[
+                {
+                  'text-purple': $route.name == 'about',
+                },
+                'hover:text-purple cursor-pointer whitespace-no-wrap no-underline block md:inline-block md:mr-5 p-2 md:p-0',
+                $style.nav,
+              ]"
+              to="/about"
+            >
+              About
+            </nuxt-link> -->
+            <nuxt-link
+              :class="[
+                {
+                  'text-purple': $route.name == 'videos',
+                },
+                'hover:text-purple cursor-pointer whitespace-no-wrap no-underline block md:inline-block md:mr-5 p-2 md:p-0',
+              ]"
+              to="/videos"
+            >
+              Videos
+            </nuxt-link>
+            <nuxt-link
+              :class="[
+                {
+                  'text-purple': $route.name == 'book',
+                },
+                'hover:text-purple cursor-pointer whitespace-no-wrap no-underline block md:inline-block p-2 md:p-0',
+              ]"
+              to="/book"
+            >
+              Book a Class
+            </nuxt-link>
+          </div>
+        </nav>
       </div>
     </header>
     <Nuxt :class="$style.content" />
@@ -52,7 +73,14 @@ export default {
   data() {
     return {
       scrollPosition: 0,
+      isNavCollapsed: true,
     }
+  },
+
+  watch: {
+    $route() {
+      this.isNavCollapsed = true
+    },
   },
 
   mounted() {
@@ -82,5 +110,13 @@ export default {
 <style module lang="scss">
 .content {
   margin-top: var(--top-spacing);
+}
+
+.nav {
+  top: var(--top-spacing);
+
+  @media only screen and (min-width: theme('screens.md')) {
+    top: auto;
+  }
 }
 </style>
