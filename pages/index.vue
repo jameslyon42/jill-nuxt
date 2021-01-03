@@ -12,7 +12,7 @@
         <div class="sm:col-span-5">
           <img class="shadow-lg rounded-full" src="@/assets/images/face.jpg" />
         </div>
-        <p
+        <div
           class="font-spartan text-center sm:text-left font-medium text-xl sm:text-2xl sm:col-span-7 mb-0"
         >
           Hi, I’m Jill, a fitness and wellness coach here to help you create
@@ -20,7 +20,37 @@
           <Button class="shadow-lg" @click="scrollToSignUp">
             Take a class with me
           </Button>
-        </p>
+          <div class="text-left">
+            <a
+              class="text-3xl hover:text-purple"
+              href="https://www.youtube.com/channel/UC68qf0s2vwADY2yqALqhEvA/featured"
+              target="_blank"
+            >
+              <fa :icon="['fab', 'youtube']" />
+            </a>
+            <a
+              class="ml-2 text-3xl hover:text-purple"
+              href="https://www.facebook.com/The-Jill-Pill-2299369710306614"
+              target="_blank"
+            >
+              <fa :icon="['fab', 'facebook-square']" />
+            </a>
+            <a
+              class="ml-2 text-3xl hover:text-purple"
+              href="https://www.instagram.com/the_jillpill/"
+              target="_blank"
+            >
+              <fa :icon="['fab', 'instagram']" />
+            </a>
+            <a
+              class="ml-2 text-3xl hover:text-purple"
+              href="mailto:thejillpillmethod@gmail.com"
+              target="_blank"
+            >
+              <fa :icon="['fas', 'envelope']" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="shadow-lg py-20">
