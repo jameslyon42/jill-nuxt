@@ -22,7 +22,7 @@
           <div
             :class="[
               { hidden: isNavCollapsed },
-              'bg-white md:block absolute md:relative md:right-auto right-0 md:left-auto left-0 text-center md:text-left',
+              'bg-white md:block absolute md:relative md:right-auto right-0 md:left-auto left-0 text-center md:text-left shadow-lg md:shadow-none',
               $style.nav,
             ]"
           >
