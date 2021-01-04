@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import { embedPage } from '@/utils'
+
 export default {
   name: 'BookAClass',
 
@@ -17,13 +19,6 @@ export default {
 
   head: {
     title: 'Book A Class',
-
-    script: [
-      {
-        src:
-          'https://www.thetalenthack.com/assets/embed_script_asset.js?v=1.1.0',
-      },
-    ],
   },
 }
 </script>
