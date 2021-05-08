@@ -47,7 +47,7 @@
               ]"
               to="/videos"
             >
-              Videos
+              On-demand Library
             </nuxt-link>
             <nuxt-link
               :class="[

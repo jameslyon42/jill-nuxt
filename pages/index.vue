@@ -18,7 +18,7 @@
           Hi, I’m Jill, a fitness and wellness coach here to help you create
           <span class="mt-4 mb-8 block font-bold">Happy Healthy Habits.</span>
 
-          <div class="flex flex-col max-w-xs mx-auto">
+          <div class="flex flex-col max-w-xs">
             <a
               href="https://www.thetalenthack.com/me/thejillpill/book"
               class="shadow-lg bg-purple text-center text-white font-medium py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer"
@@ -29,7 +29,7 @@
               href="https://www.thetalenthack.com/me/thejillpill/on-demand"
               class="shadow-lg bg-blue text-center text-white font-medium mt-3 py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer"
             >
-              On demand library
+              On-demand library
             </a>
             <a
               href="https://www.thetalenthack.com/me/thejillpill/on_demand_collections/891"
@@ -37,6 +37,36 @@
             >
               Complimentary workouts
             </a>
+            <div class="text-center mt-3 flex-none">
+              <a
+                class="text-3xl hover:text-purple"
+                href="https://www.youtube.com/channel/UC68qf0s2vwADY2yqALqhEvA/featured"
+                target="_blank"
+              >
+                <fa :icon="['fab', 'youtube']" />
+              </a>
+              <a
+                class="ml-2 text-3xl hover:text-purple"
+                href="https://www.facebook.com/The-Jill-Pill-2299369710306614"
+                target="_blank"
+              >
+                <fa :icon="['fab', 'facebook-square']" />
+              </a>
+              <a
+                class="ml-2 text-3xl hover:text-purple"
+                href="https://www.instagram.com/the_jillpill/"
+                target="_blank"
+              >
+                <fa :icon="['fab', 'instagram']" />
+              </a>
+              <a
+                class="ml-2 text-3xl hover:text-purple"
+                href="mailto:thejillpillmethod@gmail.com"
+                target="_blank"
+              >
+                <fa :icon="['fas', 'envelope']" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
