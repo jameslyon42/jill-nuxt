@@ -17,37 +17,25 @@
         >
           Hi, I’m Jill, a fitness and wellness coach here to help you create
           <span class="mt-4 mb-8 block font-bold">Happy Healthy Habits.</span>
-          <Button class="shadow-lg" @click="scrollToSignUp">
-            Take a class with me
-          </Button>
-          <div class="text-left">
+
+          <div class="flex flex-col max-w-xs mx-auto">
             <a
-              class="text-3xl hover:text-purple"
-              href="https://www.youtube.com/channel/UC68qf0s2vwADY2yqALqhEvA/featured"
-              target="_blank"
+              href="https://www.thetalenthack.com/me/thejillpill/book"
+              class="shadow-lg bg-purple text-center text-white font-medium py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer"
             >
-              <fa :icon="['fab', 'youtube']" />
+              Book a class
             </a>
             <a
-              class="ml-2 text-3xl hover:text-purple"
-              href="https://www.facebook.com/The-Jill-Pill-2299369710306614"
-              target="_blank"
+              href="https://www.thetalenthack.com/me/thejillpill/on-demand"
+              class="shadow-lg bg-blue text-center text-white font-medium mt-3 py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer"
             >
-              <fa :icon="['fab', 'facebook-square']" />
+              On demand library
             </a>
             <a
-              class="ml-2 text-3xl hover:text-purple"
-              href="https://www.instagram.com/the_jillpill/"
-              target="_blank"
+              href="https://www.thetalenthack.com/me/thejillpill/on_demand_collections/891"
+              class="shadow-lg bg-pink text-center text-white font-medium mt-3 py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer"
             >
-              <fa :icon="['fab', 'instagram']" />
-            </a>
-            <a
-              class="ml-2 text-3xl hover:text-purple"
-              href="mailto:thejillpillmethod@gmail.com"
-              target="_blank"
-            >
-              <fa :icon="['fas', 'envelope']" />
+              Complimentary workouts
             </a>
           </div>
         </div>
@@ -73,9 +61,12 @@
           <p class="mb-5">
             Connect with others in a supportive and fun atmosphere
           </p>
-          <Button class="shadow-lg" @click="scrollToSignUp">
+          <a
+            href="https://www.thetalenthack.com/me/thejillpill/book"
+            class="shadow-lg bg-purple text-white font-medium py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer inline-block"
+          >
             Take a class with me
-          </Button>
+          </a>
         </div>
         <img
           class="col-span-1 lg:col-span-6 lg:col-start-0 shadow-lg rounded-full"
@@ -136,7 +127,7 @@
           src="@/assets/images/class.jpg"
         />
       </div>
-      <div
+      <!-- <div
         class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12 relative"
       >
         <img
@@ -223,7 +214,7 @@
             View All Packages
           </Button>
         </div>
-      </div>
+      </div> -->
       <!-- <div
         class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12"
       >
@@ -356,12 +347,6 @@ export default {
     ...mapActions('schedule', ['fetchClasses']),
     formatDate,
     formatClassTime,
-
-    scrollToSignUp() {
-      this.$refs.signup.scrollIntoView({
-        behavior: 'smooth',
-      })
-    },
   },
 }
 </script>
