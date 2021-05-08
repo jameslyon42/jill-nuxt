@@ -17,6 +17,7 @@
         >
           Hi, I’m Jill, a fitness and wellness coach here to help you create
           <span class="mt-4 mb-8 block font-bold">Happy Healthy Habits.</span>
+
           <div class="flex flex-col max-w-xs mx-auto">
             <a
               href="https://www.thetalenthack.com/me/thejillpill/book"
