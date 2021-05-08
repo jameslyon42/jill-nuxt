@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:14-buster-slim
 
 ENV HOST 0.0.0.0
 
