@@ -41,6 +41,17 @@
             <nuxt-link
               :class="[
                 {
+                  'text-purple': $route.name == 'corporate',
+                },
+                'hover:text-purple cursor-pointer whitespace-no-wrap no-underline block md:inline-block md:mr-5 p-2 md:p-0',
+              ]"
+              to="/wellness-at-work"
+            >
+              Wellness at Work
+            </nuxt-link>
+            <nuxt-link
+              :class="[
+                {
                   'text-purple': $route.name == 'videos',
                 },
                 'hover:text-purple cursor-pointer whitespace-no-wrap no-underline block md:inline-block md:mr-5 p-2 md:p-0',
