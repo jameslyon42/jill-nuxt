@@ -39,7 +39,7 @@
               href="mailto:thejillpillmethod@gmail.com"
               class="shadow-lg bg-pink text-center text-white font-medium mt-3 py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer"
             >
-              Shoot me an email
+              For weekly classes, email me
             </a>
             <div class="text-center mt-3 flex-none">
               <a
@@ -87,10 +87,6 @@
             manage stress.
           </p>
           <p class="mb-5">
-            The Jill Pill offers online classes to keep your team Happy And
-            Healthy
-          </p>
-          <p class="mb-5">
             Benefits of offering classes to your employees:
           </p>
           <ul class="list-disc ml-6">
@@ -112,16 +108,23 @@
             <li class="col-span-12">
               <h4 class="mt-0 mb-4 font-medium">We work with your schedule</h4>
               <p class="mb-0">
-                Ideal for older adults and those new to exercising. We focus on
-                increasing strength, range of movement, balance, and
-                coordination
+                Classes can be 30 or 45 minutes long and we will set up a date
+                and time that works best for your team.
               </p>
             </li>
             <li class="col-span-12">
               <h4 class="mt-0 mb-4 font-medium">Several format options</h4>
               <p class="mb-0">
-                Low-impact flexibility and strength class that focuses on proper
-                postural alignment, core strength, and muscle balance
+                Whether your team is in need of stretching and relaxation, a
+                heart pumping cardio class or a little of both, we will create a
+                format and style that excites your team.
+              </p>
+            </li>
+            <li class="col-span-12">
+              <h4 class="mt-0 mb-4 font-medium">Reimbursement possibility</h4>
+              <p class="mb-0">
+                These classes may be available for reimbursement from your
+                health insurance provider. Check with your provider.
               </p>
             </li>
           </ul>
@@ -145,8 +148,11 @@
           <p class="col-span-6 font-medium mb-0">
             &ldquo;This was very relaxing and a great stretch!&rdquo;
           </p>
-          <p class="col-span-6 md:col-start-4 font-medium mb-0">
-            &ldquo;Just what I needed to unwind after a stressful day.&rdquo;
+          <p
+            class="col-start-2 col-span-4 lg:col-span-8 lg:col-start-3 font-medium mb-0"
+          >
+            &ldquo;Just what I needed to unwind. This helped me feel connected
+            especially when working from home.&rdquo;
           </p>
         </div>
       </div>
