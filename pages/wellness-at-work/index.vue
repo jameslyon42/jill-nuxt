@@ -24,22 +24,12 @@
           </p>
           <div class="flex flex-col max-w-xs">
             <a
-              href="https://www.thetalenthack.com/spaces/checkout?product_id=3833&product_type=talent_private_session"
+              href="mailto:thejillpillmethod@gmail.com"
               class="shadow-lg bg-purple text-center text-white font-medium py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer"
             >
-              Book a 30 minute class
-            </a>
-            <a
-              href="https://www.thetalenthack.com/spaces/checkout?product_id=3834&product_type=talent_private_session"
-              class="shadow-lg bg-blue text-center text-white font-medium mt-3 py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer"
-            >
-              Book a 45 minute class
-            </a>
-            <a
-              href="mailto:thejillpillmethod@gmail.com"
-              class="shadow-lg bg-pink text-center text-white font-medium mt-3 py-2 px-4 rounded-lg text-lg font-spartan button no-underline cursor-pointer"
-            >
-              For weekly classes, email me
+              Email me for pricing
+              <br />
+              and class options
             </a>
             <div class="text-center mt-3 flex-none">
               <a
