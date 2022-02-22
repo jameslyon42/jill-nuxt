@@ -3,7 +3,7 @@ description: 'Close issues and pull requests with no recent activity'
 
 on:
   schedule:
-    - cron: '5 * * * *'
+    - cron: '59 * * * *'
 
 jobs:
   stale:
