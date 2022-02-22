@@ -1,0 +1,12 @@
+name: 'Close stale issues and PRs'
+description: 'Close issues and pull requests with no recent activity'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v4
+        with:
+          stale-pr-message: 'This PR is stale because it has been open 1 days with no activity. Remove stale label or comment or this will be closed in 1 days.'
+          days-before-stale: 11
+          days-before-close: 1
