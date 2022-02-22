@@ -1,9 +1,8 @@
 name: 'Close stale issues and PRs'
-description: 'Close issues and pull requests with no recent activity'
 
 on:
   schedule:
-    - cron: '59 * * * *'
+    - cron: '10 * * * *'
 
 jobs:
   stale:
